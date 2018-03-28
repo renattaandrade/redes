@@ -1,5 +1,3 @@
-Identifique a sua turma pelo ano atual, inicial da turma e número dela.   
+# Lista de atividades
 
-Exemplo:  
-* s421-2018-1 para subsequente 421 do ano 2018.   
-* s421-2018-1 para integrado 421 do ano 2018.   
+[VIDEO GITHUB](https://www.youtube.com/watch?v=zg8JcK1dgMI)   
