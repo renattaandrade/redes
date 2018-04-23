@@ -1,0 +1,15 @@
+IFBA - Campus Jequié 
+Discente: Renatta de Andrade     Docente: Ramon Fontes
+Turma: TI431 - 2018
+
+
++Questão 1-R=Os cabos submarinos são cabos que atravessam o mar conectados por estações terrestres para transmitir sinais de telecomunicações. 
+Após uma pesquisa a empresa TeleGeography apontou a existência de 366 cabos em todo o mundo que ligam litorais ou até continentes diferentes,
+já no Brasil existem 7 em funcionamento e 9 em construção.
+O primeiro cabo construido foi feito para ligar a Irlanda até as Ilhas de Terra Nova em 1958,
+porém antes dessejá haviam tentadao outras duas vezes instalarem um cabo submarino, mas as duas tentativas deram errado. Hoje em dia o cabo com 
+a maior taxa de requisição é o Marea que liga o Estados Unidos a Espanha e tem a íncrivel capacidade de trnasmissão de 160 terabits(20 000 gigabytes) por segundo.
++Questão 2-R=Sim, tubarões podem danificar os cabos, porém não é tão recorrente, durante o periodo de 2007 a 2014 nenhuma falha causada por esses animais foram detectadas, 
+mas atividades de pesca e a ancoragem de navios são responsáveis por cerca de 75% das falhas que aconteceram.
++Questão 3-R=Quando um cabo se rompe, acontecem falhas nas comunicações o qual transmitem, quanto mais próximo do lugar do rompimento maiores as falhas no lugar, 
+principalmente se algum país por exemplo for totalmente depedente do cabo rompido.
