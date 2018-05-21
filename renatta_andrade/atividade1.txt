@@ -1,0 +1,125 @@
+Introdução às Redes de Computadores
+
+
+1. Qual o objetivo principal de uma rede de computadores? 
+
+Resposta: O objetivo principal de uma rede é garantir a troca de informação com rapidez e segurança, e compartilhamento de recurso.
+
+
+2. Quais as diferenças entre as redes PAN, LAN, MAN e WAN? 
+
+Resposta: A PAN permite que dispositivos se comuniquem pelo alcance de uma pessoa, ex: bluetooth. A LAN realiza conexões em curtas distancias e é restrita. A MAN é utilizada para distancias intermediárias, como cidade, e otimiza a relação custo/benefício. A WAN é para distancias ainda maiores. 
+
+
+3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor? 
+
+Resposta: A rede ponto-a-ponto é a conexão entre pares de máquinas, no estilo emissor e conector. Geralmente são iguais e exercem a mesma função, enquanto na rede cliente-servidor todos os computadores estão centralizados em um servidor.
+
+
+4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles. 
+
+Resposta: Servidor compartilhado: É o tipo mais comum de servidor. Também chamado de web hosting compartilhado, esse servidor é mantido por uma empresa especializada. Nele, há espaço e recurso que são compartilhados com uma série de outras empresas que utilizam o serviço. É usado principalmente para pequenas empresas, e que não rodam aplicações complexas – geralmente não excedem os 10 gigabytes. 
+
+Virtual Private Servers: O Virtual Private Servers é o servidor intermediário entre os serviços compartilhados e aqueles de dedicação exclusiva. Embora seja uma mesma máquina em uso, as partições são distintas, o que evita os riscos de você ser “derrubado” quando houver instabilidade no servidor.
+
+Servidor dedicado: Esse é um tipo de servidor onde você aluga um servidor físico em uma empresa de web hosting. Nesses casos, o cliente tem acesso total ao servidor. Isso permite que o usuário rode toda e qualquer aplicação através dele.
+
+
+
+
+Topologias de Rede
+
+
+5. O que é uma topologia de rede do tipo malha?
+
+Resposta: Esta topologia é muito utilizada em várias configurações, pois facilita a instalação e configuração de dispositivos em redes mais simples. Todos os nós estão atados a todos os outros nós, como se estivessem entrelaçados. Já que são vários os caminhos possíveis por onde a informação pode fluir da origem até o destino.
+
+
+6. O que é uma topologia de rede do tipo híbrida? Como funciona?
+
+Resposta: A topologia tipo híbrida é usada em grandes redes. Numa topologia híbrida, o desenho final resulta da combinação de duas ou mais topologias de rede. A combinação de duas ou mais topologias de rede permite-nos beneficiar das vantagens de cada uma das topologias que integram esta topologia. 
+
+
+7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,
+
+barramento e anel.
+
+Resposta: 
+
+Barra:
+
+Vantagem: Mais barato o custo de instalação.
+Desvantagem: Quanto mais computadores conectados na rede, mais lenta ela fica.
+
+Estrela:
+
+Vantagem: Cada estação se comunica diretamente com um nó central e facilita a manutenção da rede.
+Desvantagem: A montagem gera um custo alto.
+
+Anel:
+
+Vantagem: Todos os computadores acessam a rede igualmente.
+Desvantagem: A falha em um computador pode afetar o restante da rede.
+
+
+
+
+
+Arquitetura de redes de computadores
+
+
+8. Quais são as sete camadas do modelo OSI?
+
+Resposta: Camada física, camada de enlace, camada de rede, camada de transporte, camada de sessão, camada de apresentação, camada de aplicação.
+
+
+9. Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma?
+
+Resposta: 
+
+Camada física: A camada física trata coisas tipo distância máxima dos cabos (por exemplo no caso do UTP onde são 90m), conectores físicos (tipo BNC do coaxial ou RJ45 do UTP), pulsos elétricos (no caso de cabo metálico) ou pulsos de luz (no caso da fibra ótica), etc. Resumindo, ela recebe os dados e começa o processo, ou insere os dados finalizando o processo, de acordo com a ordem. Podemos associa-la a cabos e conectores.
+
+Camada de enlace: A camada e enlace trata as topologias de rede, dispositivos como Switche, placa de rede, interfaces, etc., e é responsável por todo o processo de switching. Após o recebimento dos bits, ela os converte de maneira inteligível, os transforma em unidade de dado, subtrai o endereço físico e encaminha para a camada de rede que continua o processo. 
+
+Camada de rede: Pensando em WAN, é a camada que mais atua no processo. A camada 3 é responsável pelo tráfego no processo de internetworking. A partir de dispositivos como roteadores, ela decide qual o melhor caminho para os dados no processo, bem como estabelecimento das rotas. A camada 3 já entende o endereço físico, que o converte para endereço lógico (o endereço IP).
+
+Camada de transporte: A camada de transporte é responsável pela qualidade na entrega/recebimento dos dados. Após os dados já endereçados virem da camada 3, é hora de começar o transporte dos mesmos. A camada 4 gerencia esse processo, para assegurar de maneira confiável o sucesso no transporte dos dados, por exemplo, um serviço bastante interessante que atua de forma interativa nessa camada é o Q.O.S ou Quality of Service (Qualidade de Serviço), que é um assunto bastante importante é fundamental no processo de internetworking, e mais adiante vou aborda-lo de maneira bem detalhada. Então, após os pacotes virem da camada de rede, já com seus “remetentes/destinatários”, é hora de entrega-los, como se as cartas tivessem acabados de sair do correio (camada 3), e o carteiro fosse as transportar (camada 4). Junto dos protocolos de endereçamento (IP e IPX), agora entram os protocolos de transporte (por exemplo, o TCP e o SPX). A PDU da camada 4 é o SEGMENTO.
+
+Camada de sessão: A camada 5 é responsável por iniciar, gerenciar e terminar a conexão entre hosts. Para obter êxito no processo de comunicação, a camada de seção têm que se preocupar com a sincronização entre hosts, para que a sessão aberta entre eles se mantenha funcionando.
+
+Camada de apresentação: A camada 6 atua como intermediaria no processo frente às suas camadas adjacentes. Ela cuida da formatação dos dados, e da representação destes, e ela é a camada responsável por fazer com que duas redes diferentes (por exemplo, uma TCP/IP e outra IPX/SPX) se comuniquem, “traduzindo” os dados no processo de comunicação.
+
+Camada de aplicação: a camada 7 e basicamente a interface direta para inserção/recepção de dados. Nela é que atuam o DNS, o Telnet, o FTP, etc. E ela pode tanto iniciar quanto finalizar o processo, pois como a camada física, se encontra em um dos extremos do modelo.
+
+
+10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex
+
+e full-duplex?
+
+Resposta:
+
+Uma comunicação é dita simplex quando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.
+
+Uma comunicação é dita half duplex quando temos um transmissor e um receptor, sendo que ambos podem transmitir e receber dados, porém nunca simultaneamente, a transmissão tem de sentido bidirecional.
+
+Uma comunicação é chamada full duplex quando temos o transmissor e o receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos. 
+
+
+11. Quais são as camadas do modelo TCP/IP?
+
+Resposta:
+
+• Camada de aplicação (FTP, SMTP, TELNET, HTTP, HTTPS, etc)
+
+• Camada de transporte (TCP, UDP, etc)
+
+• Camada de rede (IP)
+
+• Camada física (Ethernet, etc)
+
+
+12. Qual camada você achou mais importante no modelo OSI e no modelo
+
+TCP/IP? Por quê?
+
+Resposta: A camada de redes, porque é a parte da conexão. Se falha a conexão, compromete o restante das camadas.
